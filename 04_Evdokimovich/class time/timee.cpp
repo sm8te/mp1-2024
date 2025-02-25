@@ -20,12 +20,6 @@ int main() {
   ti2.set_hour(1);
   ti2.set_minute(30);
   ti2.set_second(30);
-  ti3.set_hour(0);
-  ti3.set_minute(0);
-  ti3.set_second(0);
-  ti4.set_hour(0);
-  ti4.set_minute(0);
-  ti4.set_second(0);
   /*ti.print_time();
   ti.plus_second(1);
   ti.print_time();*/
