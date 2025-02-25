@@ -7,9 +7,9 @@
 
 
 struct time {
-    int hour;
-    int minute;
-    int second;
+    int hour=0;
+    int minute=0;
+    int second=0;
 };
 
 class timee {
