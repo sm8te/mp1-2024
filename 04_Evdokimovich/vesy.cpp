@@ -27,6 +27,8 @@ vesy::vesy(char *n, int d, int m, int y, double h) {
     }
 }
 vesy::vesy(const vesy &v) {
+    delete [] name;
+    name = new char[strlen(v.name) + 1];
     name=v.name;
     for (int i=0; i <days; i++) {
         day[i] = v.day[i];
